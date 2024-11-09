@@ -1,0 +1,5 @@
+- use types instead of interface as much as possible
+- ensure proper type safe codes only limiting the use of any type.
+- check for types. if not available then create types in types/database.ts which already exists and then refer it from there.
+- if you make any changes which might affect any dependent component, make changes and retrofit it in that component as well.
+- always make complete code changes, dont just give placeholder or dummies.
